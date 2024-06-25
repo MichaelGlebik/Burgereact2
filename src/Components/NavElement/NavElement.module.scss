@@ -1,0 +1,24 @@
+@import "../../style/template.scss";
+.oneItemNav {
+  width: 125px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 9px;
+  border-radius: 50px;
+  background-color: white;
+  &:hover {
+    background-color: rgb(255, 171, 8);
+  }
+  cursor: pointer;
+  .imgSize {
+    width: 24px;
+    height: 24px;
+  }
+  p {
+    font-family: Nunito;
+    font-size: 16px;
+    line-height: 22px;
+  }
+}

@@ -1,0 +1,24 @@
+@import '../../style/template.scss';
+.wrapperMain {
+  margin-bottom: 156px;
+  width: 100%;
+  .heading {
+    font-family: Nunito;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 120%;
+    margin-bottom: 24px;
+    border-radius: 15px;
+  }
+  .burgerCars{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    img{
+      width: 276px;
+      height: 220px;
+      border-radius: 12px
+    }
+  }
+}
